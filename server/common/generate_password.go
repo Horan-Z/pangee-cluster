@@ -8,7 +8,7 @@ import (
 const (
 	letters        = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 	numbers        = "0123456789"
-	specialChars   = "!@#$%^&*()-_=+[]{}|;:,.<>?/~`"
+	specialChars   = "!@#%^*-_=+[]{}|;:,.<>?~"
 	allChars       = letters + numbers + specialChars
 	passwordLength = 12 // 你可以根据需要调整密码长度
 )
